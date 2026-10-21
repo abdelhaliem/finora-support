@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>تواصل معنا · فينورا</title>
+<meta name="description" content="تواصل مع فريق دعم تطبيق فينورا لتنظيم الأموال الشخصية: أسئلة، مشاكل تقنية، أو اقتراحات.">
+<link rel="icon" type="image/svg+xml" href="../favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --canvas:#F2F3F7; --card:#FCFCFE; --ink:#1F2433; --muted:#5B6275;
+    --brand:#5A67D8; --brand-text:#535FC8; --brand-soft:#E7EAFB;
+    --mint-soft:#DDF3EB; --mint:#21765D; --border:#E4E7F0;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --canvas:#0F1220; --card:#181C2E; --ink:#F2F4FA; --muted:#9AA1B8;
+      --brand:#838EE9; --brand-text:#838EE9; --brand-soft:#20253A;
+      --mint-soft:#183A31; --mint:#3FB48F; --border:#323A5C;
+    }
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:'Tajawal',system-ui,-apple-system,'Segoe UI',sans-serif;
+         background:var(--canvas); color:var(--ink); line-height:1.7; }
+  main { max-width:720px; margin:0 auto; padding:32px 20px 64px; }
+  header { display:flex; align-items:center; gap:14px; margin-bottom:28px; }
+  header img { width:56px; height:56px; border-radius:16px; }
+  header strong { font-size:22px; font-weight:800; }
+  h1 { font-size:32px; font-weight:800; margin:0 0 8px; }
+  p.lead { color:var(--muted); font-size:17px; margin:0 0 24px; }
+  .card { background:var(--card); border-radius:28px; padding:24px; margin-bottom:16px;
+          box-shadow:0 4px 18px rgba(31,36,51,.07); }
+  .card h2 { font-size:19px; margin:0 0 8px; font-weight:700; }
+  .card p { margin:0 0 12px; color:var(--muted); }
+  .email { display:inline-block; direction:ltr; unicode-bidi:embed; font-weight:700;
+           font-size:18px; color:var(--brand-text); word-break:break-all; }
+  .btn { display:inline-flex; align-items:center; justify-content:center; min-height:52px;
+         padding:0 28px; border-radius:999px; background:var(--brand); color:#fff;
+         font-weight:800; font-size:17px; text-decoration:none; }
+  .btn:focus-visible, a:focus-visible { outline:3px solid var(--brand-text); outline-offset:3px; }
+  details { border-top:1px solid var(--border); padding:14px 0; }
+  details:first-of-type { border-top:0; }
+  summary { cursor:pointer; font-weight:700; }
+  details p { margin:8px 0 0; }
+  .note { background:var(--brand-soft); border-radius:20px; padding:14px 18px; color:var(--muted); font-size:15px; }
+  .en { margin-top:40px; direction:ltr; text-align:left; }
+  .en h2 { font-size:22px; margin:0 0 8px; }
+  footer { color:var(--muted); font-size:14px; margin-top:32px; text-align:center; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <img src="../assets/app_icon.svg" alt="">
+    <strong>فينورا</strong>
+  </header>
+
+  <h1>تواصل معنا</h1>
+  <p class="lead">عندك سؤال أو واجهتك مشكلة أو لديك اقتراح لتحسين فينورا؟ راسلنا وسنرد عليك في أقرب وقت.</p>
+
+  <section class="card" aria-labelledby="mail-h">
+    <h2 id="mail-h">راسلنا عبر البريد الإلكتروني</h2>
+    <p>أرسل لنا رسالتك وسنتواصل معك على نفس البريد.</p>
+    <p><a class="email" href="mailto:abdelhalem.emad.eg@gmail.com?subject=%D8%AF%D8%B9%D9%85%20%D8%AA%D8%B7%D8%A8%D9%8A%D9%82%20%D9%81%D9%8A%D9%86%D9%88%D8%B1%D8%A7">abdelhalem.emad.eg@gmail.com</a></p>
+    <a class="btn" href="mailto:abdelhalem.emad.eg@gmail.com?subject=%D8%AF%D8%B9%D9%85%20%D8%AA%D8%B7%D8%A8%D9%8A%D9%82%20%D9%81%D9%8A%D9%86%D9%88%D8%B1%D8%A7">أرسل رسالة</a>
+  </section>
+
+  <section class="card" aria-labelledby="tips-h">
+    <h2 id="tips-h">لتسريع المساعدة</h2>
+    <p>اذكر في رسالتك: نوع الجهاز وإصدار النظام، وما الذي كنت تفعله عند حدوث المشكلة. لا ترسل كلمات المرور أو الرمز السري أبدًا.</p>
+  </section>
+
+  <section class="card" aria-labelledby="faq-h">
+    <h2 id="faq-h">أسئلة شائعة</h2>
+    <details>
+      <summary>أين تُحفظ بياناتي؟</summary>
+      <p>تُحفظ بياناتك على هاتفك ويعمل التطبيق بدون إنترنت. النسخ الاحتياطي السحابي اختياري ولا يعمل إلا إذا سجّلت الدخول وفعّلته.</p>
+    </details>
+    <details>
+      <summary>كيف أستعيد بياناتي على هاتف جديد؟</summary>
+      <p>من «المزيد» ثم «النسخ الاحتياطي والاستعادة»: اختر الاستعادة من السحابة (بعد تسجيل الدخول بنفس الحساب) أو من ملف نسخة احتياطية.</p>
+    </details>
+    <details>
+      <summary>كيف أحذف حسابي ونسخي الاحتياطية؟</summary>
+      <p>من «المزيد» ثم «الحساب» ثم «منطقة الخطر»: يمكنك حذف النسخ السحابية وحدها، أو حذف الحساب بالكامل مع كل نسخه السحابية. البيانات الموجودة على هاتفك لا تُحذف.</p>
+    </details>
+    <details>
+      <summary>نسيت كلمة المرور</summary>
+      <p>من شاشة تسجيل الدخول اختر «نسيت كلمة المرور؟» وسيصلك رمز من 6 أرقام على بريدك لإعادة تعيينها.</p>
+    </details>
+  </section>
+
+  <p class="note">فينورا أداة لتسجيل ومتابعة أموالك الشخصية بإدخال بياناتك بنفسك؛ لا يرتبط بحساباتك البنكية ولا يجري مدفوعات ولا يقدّم استشارات مالية.</p>
+
+  <section class="en" lang="en">
+    <h2>Contact us</h2>
+    <p>Questions, problems or ideas for Finora? Email us and we'll get back to you as soon as we can.</p>
+    <p><a class="email" href="mailto:abdelhalem.emad.eg@gmail.com?subject=Finora%20support">abdelhalem.emad.eg@gmail.com</a></p>
+  </section>
+
+  <footer>© Finora</footer>
+</main>
+</body>
+</html>
